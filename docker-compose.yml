@@ -13,7 +13,7 @@ services:
       - backups-volume:/backups
       - sources-volume:/source
     ports:
-      - 8200:8200 # Change this port for more security
+      - 8200:8200 # Change first port for more security
     restart: unless-stopped
 
 volumes:
